@@ -31,7 +31,7 @@ function App() {
 
   const [guessedLetters, setGuessedLetter] = useState([]);
   const [wrongLetters, setWrongLetters] = useState([]);
-  const [guesses, setGuesses] = useState([3]);
+  const [guesses, setGuesses] = useState([5]);
   const [score, setScore] = useState([50]);
 
 
@@ -67,7 +67,7 @@ function App() {
     wordLetters = wordLetters.map((l) => l.toLowerCase());
 
 
-    console.log(wordLetters)
+    //console.log(wordLetters)
     //console.log(word, category);
 
     //fill states
