@@ -1,4 +1,6 @@
 import './App.css';
+
+//components
 import MyForm from './components/MyForm';
 
 function App() {
