@@ -1,4 +1,4 @@
-import  {HookUseReducer}  from "../components/HookUseReducer"
+import HookUseReducer  from "../components/HookUseReducer"
 import HookUseState from "../components/HookUseState"
 
 const Home = () => {
