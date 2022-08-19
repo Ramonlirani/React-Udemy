@@ -2,6 +2,8 @@ import './App.css';
 
 import { BrowserRouter, Routes, Route, Link} from 'react-router-dom';
 
+import { HookUseContext } from './components/HookUseContext';
+
 //pages
 import Home from './pages/Home';
 import About from './pages/About';
@@ -9,6 +11,7 @@ import About from './pages/About';
 function App() {
   return (
     <div className="App">
+      <HookUseContext>
       <h1>React Hooks</h1>
       <BrowserRouter>
           <ul>
@@ -24,6 +27,7 @@ function App() {
               <Route path="/about" element={<About/>}/>
           </Routes>
       </BrowserRouter>
+      </HookUseContext>
     </div>
   );
 }
